@@ -1,0 +1,274 @@
+
+
+/*Body*/
+
+body {
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+
+
+
+
+
+
+/*Div principal*/
+
+.div-principal {
+    display: flex;
+    width: 100%;
+}   
+
+
+
+
+
+
+/*Div da Esquerda*/
+.div1 {
+    background-color:rgb(214, 208, 208);
+    width: 20%;
+    height: auto;
+}
+
+.div-img {
+    display: flex;
+    justify-content:center; /* alinha horizontalmente ao centro */
+    align-items: center; /* alinha verticalmente ao centro */
+    height: 280px; /* altura desejada */
+    border: 1px solid #ccc; /* apenas para visualização */
+}
+
+.image {
+    border-radius: 100%;
+    margin-left: 15%;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+}
+
+.imagemfoto {
+margin-left: 15%;
+width: 60%;
+height: 60%;
+margin-left: 20%;
+}
+
+.home {
+    font-size: 40px;
+    font-weight:30px;
+}
+
+
+
+
+
+
+
+
+/*Div da direita*/
+
+
+.div2 {
+    background-color:rgb(255, 255, 255);
+    width:80%;
+
+    height: 100%;
+    margin-left: 30px;
+}
+
+.p-ola {
+    font-size: 1.25rem;
+    line-height: 10px;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+
+.div-texto-sobre-min{
+    width:80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 20%;
+    text-align: justify;
+
+}
+
+.texto-sobre-min {
+    margin-left: 0%;
+    margin-top: 5%;
+    line-height: 1,50rem;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1,50rem;
+    font-weight:700;
+    margin-left: 10%;
+    margin-top: 0;
+}
+
+h2{
+    font-size: 20px;
+    line-height: 1.25rem;
+    margin-left: 10%;
+    margin-top: 0;
+}
+
+
+
+
+/*Texto Linguagens de programação*/
+
+.p-conhecimento {
+    font-size: 16px;
+    line-height: 10px;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+
+
+
+
+.icone-Liguagem-C {
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+
+.icone-html{
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.icone-css {
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.icone-sistemas-operacionais {
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.icone-robotica {
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+
+
+
+/*Botões menu*/
+
+.botao-home {
+    width: 95%;
+    height: 50px;
+    margin-left: 2.5%;
+    font-size: 17px;
+ 
+    background-color: rgb(247, 247, 247);
+    border:  rgb(116, 114, 114);
+    border-radius: 10px
+}
+
+.botao-home:hover {
+    background-color: rgb(200, 200, 200); 
+}
+.botao-sobremim {
+    width: 95%;
+    height: 50px;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    font-size: 17px;
+
+    background-color: rgb(200, 200, 200);
+    border: rgb(222, 239, 253);
+    border-radius: 10px
+
+}
+
+.botao-sobremim:hover {
+    background-color: rgb(200, 200, 200); 
+}
+
+.cabecario {
+    background-color:rgb(194, 19, 19);
+    width: 30%;
+    height: 30%;
+
+}
+.botao-projetos {
+    width: 95%;
+    height: 50px;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    font-size: 17px;
+
+    background-color: rgb(247, 247, 247);
+    border: rgb(222, 239, 253);
+    border-radius: 10px
+}
+
+.botao-projetos:hover {
+    background-color: rgb(200, 200, 200); 
+}
+
+
+.botao-contato {
+    width: 95%;
+    height: 50px;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    font-size: 17px;
+
+    background-color: rgb(247, 247, 247);
+    border: rgb(222, 239, 253);
+    border-radius: 10px
+}
+
+.botao-contato:hover {
+    background-color: rgb(200, 200, 200); 
+}
+
+
+/*Outros*/
+
+
+h3 {
+    height: 1rem;
+    margin-left: 10%;
+    margin-left: 10%;
+    margin-top: 0;
+}
+
+.w-4 {
+    width: 1rem;
+}
+
+
+.rounded-full {
+    border-radius: 9999px;
+}
+/* sdsds */
+.rounded-full-color {
+    background-color: blueviolet;
+}
+
+
+
